@@ -1,31 +1,116 @@
-# Projet Dev Hotel
+# 🏨 TunisiaHotelBooking
+### Hotel Booking & Reservation Management Platform in Tunisia
 
-Bienvenue dans le projet de développement d'un site web pour un hôtel. Ce projet contient des pages HTML pour différentes destinations et hôtels, ainsi que des fichiers CSS pour le style.
+<p align="center">
+  <strong>Discover Hotels. Book Your Stay. Experience Tunisia.</strong>
+</p>
 
-## Structure du projet
+## 📌 Overview
 
-- `index.html` : Page d'accueil
-- `hotels.html` : Liste des hôtels
-- `voyage.html` : Page de voyage
-- `formulaire.html` : Formulaire de contact
-- `*.html` : Pages spécifiques pour chaque destination/hôtel (ex. : bali.html, dubai.html)
-- `*.css` : Fichiers de style (ex. : style.css, hotels.css)
-- `image/` : Dossier des images
+**TunisiaHotelBooking** is a full-stack web application designed to simplify hotel discovery and reservation management in Tunisia.
 
-## Comment utiliser
+The platform provides users with an online interface to explore hotels across different Tunisian destinations, view accommodation details, compare available options, and make reservations.
 
-1. Ouvrez `index.html` dans votre navigateur.
-2. Naviguez entre les pages pour explorer les destinations et hôtels.
+The project aims to digitize hotel booking services by connecting customers with accommodation establishments through a centralized and user-friendly platform.
 
-## Technologies utilisées
+## 🎯 Project Objectives
 
-- HTML5
-- CSS3
+- Centralize hotel information across Tunisia.
+- Simplify the hotel discovery and reservation process.
+- Provide an intuitive and user-friendly booking experience.
+- Facilitate access to hotel details and accommodation offers.
+- Implement an integrated reservation management system.
 
-## Auteur
+## ✨ Key Features
 
-[Votre nom] - [Votre email ou lien GitHub]
+- **Hotel Discovery:** Browse hotels located in different regions of Tunisia.
+- **Hotel Details:** Explore accommodation information and available services.
+- **Search & Filtering:** Find hotels according to user preferences.
+- **Reservation Management:** Submit and manage hotel booking requests.
+- **Dynamic Interface:** Interactive and user-friendly web pages.
+- **Database Integration:** Store and manage hotel and reservation information.
 
-## Licence
+## 🛠️ Technologies Used
 
-Ce projet est sous licence MIT.
+| Technology | Purpose |
+|---|---|
+| HTML5 | Page structure |
+| CSS3 | Styling and responsive design |
+| JavaScript | Interactive functionality |
+| PHP | Server-side development |
+| MySQL | Database management |
+
+## 🏗️ System Architecture
+
+```text
+          CUSTOMER
+              |
+              v
+       WEB INTERFACE
+       HTML / CSS / JS
+              |
+              v
+       PHP BACKEND
+              |
+              v
+        MYSQL DATABASE
+              |
+       +------+------+
+       |             |
+    HOTELS       RESERVATIONS
+```
+
+## 🚀 Installation & Setup
+
+### Prerequisites
+
+- PHP
+- MySQL
+- Apache Server (XAMPP)
+- Web Browser
+
+### Steps
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/eyawannes/TunisiaHotelBooking.git
+```
+
+2. Move the project folder into the XAMPP `htdocs` directory.
+
+3. Start Apache and MySQL from XAMPP.
+
+4. Import the project database into phpMyAdmin, if a database export is provided.
+
+5. Configure the database connection.
+
+6. Open the application:
+
+```text
+http://localhost/TunisiaHotelBooking/
+```
+
+## 💡 Skills Demonstrated
+
+- Full-Stack Web Development
+- Responsive Web Design
+- PHP Backend Development
+- Database Design & Management
+- CRUD Operations
+- Reservation Management
+- Client-Server Architecture
+
+## 👩‍💻 Author
+
+**Eya Wannes**
+
+Cybersecurity & Network Engineering
+
+[GitHub Profile](https://github.com/eyawannes)
+
+---
+
+<p align="center">
+  <strong>Discover Tunisia, One Stay at a Time. 🇹🇳</strong>
+</p>
